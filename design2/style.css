@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+      font-family: "Roboto", sans-serif;
+
+}
+img{
+    max-width: 100%;
+}
+
+.heading h1{
+    margin: 4rem 0 4.6rem 4rem;
+    width: 33.19rem;
+    height: 13.00rem;
+    font-size: 5.50rem;
+    font-weight: 500;
+    line-height: 7rem;
+}
+.grid{
+      margin: 4rem 0 4.6rem 4rem;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 3.5rem;
+    
+}
+.grid-section{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.grid-section span{
+    margin-bottom: 0.25rem;
+    font-size: 2rem;
+    font-weight: 500;
+    color: rgba(37, 37, 37,0.55);
+}
+.grid-section p{
+    width: 25.00rem;
+    height:8.25rem ;
+    font-size: 1.50rem;
+    font-weight: 400;
+    color: rgba(37, 37, 37,0.8);
+    margin-top: 0.25rem;
+    margin-bottom: 1.5rem;
+}
+.grid-section img{
+    width: 25.00rem;
+    height: 21.56rem;
+}

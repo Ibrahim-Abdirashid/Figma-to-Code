@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+body{
+      font-family: "Inter", sans-serif;
+
+}
+.container{
+    max-width: 1200px;
+    margin-inline: auto;
+}
+.hero{
+    /* height: 22.1875rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-block: 4rem;
+    text-align: center;
+}
+.hero h2{
+    font-size: 4rem;
+    font-weight: bold;
+    width: 38.13rem;
+    height: 9.06rem;
+    color: #252525;
+    margin-bottom: 1.5rem;
+}
+.hero p{
+    width: 37.94rem;
+    height:6.75rem ;
+    font-size: 1.63rem;
+    font-weight: 400;
+    color: rgba(37, 37, 37,0.8);
+    margin-bottom: 1.5rem;
+}
+.hero button{
+ background-color: #252525;
+ color: #fff;
+ padding: 1.1rem 3rem;
+ border-radius: 1rem;
+ font-weight: 400;
+ margin-bottom: 4rem;
+}
+
+.grid{
+    max-width: 1300px;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+.gir-section img{
+    width: 19.75rem;
+    height: 18.00rem;
+    border-radius: 1rem;
+}
