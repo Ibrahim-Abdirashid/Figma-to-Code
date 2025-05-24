@@ -1,6 +1,7 @@
 # Several Figma Landing Pages to HTML & CSS 🎨✨
 
-This project has some landing pages designed in Figma. I changed them into working HTML and CSS code.
+This project has some landing pages originally designed in Figma by others, which I converted into clean, responsive HTML and CSS code.  
+Great practice for front-end development and converting designs into code.
 
 ## Project Structure 📁
 
