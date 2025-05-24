@@ -4,8 +4,8 @@ This project has some landing pages designed in Figma. I changed them into worki
 
 ## Project Structure 📁
 
-All designs are inside one main folder called `designs`.  
-Each design has its own folder inside `designs` with the following structur.
+All designs are inside one main folder called `Figma To Code`.  
+Each design has its own folder inside `Figma To Code` with the following structur.
 
 ## How to Explore Designs 🔍
 
