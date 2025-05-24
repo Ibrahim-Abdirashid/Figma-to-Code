@@ -1,65 +1,90 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-img{
-    max-width: 100%;
-}
 body{
-      font-family: "Inter", sans-serif;
+    font-family: "Open Sans", sans-serif;
 
+}
+img{
+    /* max-width: 100%; */
 }
 .container{
     max-width: 1200px;
     margin-inline: auto;
 }
-.hero{
-    /* height: 22.1875rem; */
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 7.875rem;
+    margin-top:5.75rem ;
+}
+.all img{
+    width: 20.17rem;
+    height:20.3rem ;
+    /* border-radius: 10px; */
+    /* border-start-start-radius: 50%; */
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: self-start;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 3.271rem;
+}
+.text h2{
+    font-size: 4.5rem;
+    line-height: 5.5rem;
+}
+.text p{
+    font-size: 1.63rem;
+}
+
+.image-one{
+    position: relative;
+}
+.image-2{
+    position: absolute;
+    top:8.375rem;
+    left:14.0625rem;
+}
+.text button{
+    background-color: #252525;
+    padding:1.5rem 3rem ;
+    border-radius: 2.25rem;
+    color:#fff;
+    font-size: 1.50rem;
+    margin-bottom: 6.77rem;
+}
+/* stylinka part 2 */
+
+.grid-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    margin-block: 4rem;
-    text-align: center;
+    background-color: #252525;
+    color:#fff;
+    /* padding: 4rem; */
+    border-radius: 2.5rem;
+    margin-top: 3.5em;
+    margin-bottom: 3.25rem;
+    /* gap: 5.375rem; */
 }
-.hero h2{
-    font-size: 4rem;
-    font-weight: bold;
-    width: 38.13rem;
-    height: 9.06rem;
-    color: #252525;
-    margin-bottom: 1.5rem;
+.title1{
+    margin:6.25rem 4rem 9.625rem;
 }
-.hero p{
-    width: 37.94rem;
-    height:6.75rem ;
-    font-size: 1.63rem;
+.title1 h2{
+    font-size: 2rem;
+    color:rgba(255, 255, 255, 0.8)
+}
+.title1 p{
+    font-size:1rem ;
     font-weight: 400;
-    color: rgba(37, 37, 37,0.8);
-    margin-bottom: 1.5rem;
-}
-.hero button{
- background-color: #252525;
- color: #fff;
- padding: 1.1rem 3rem;
- border-radius: 1rem;
- font-weight: 400;
- margin-bottom: 4rem;
-}
-
-.grid{
-    max-width: 1300px;
-    margin-inline: auto;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
-    margin-bottom: 3rem;
-}
-.gir-section img{
-    width: 19.75rem;
-    height: 18.00rem;
-    border-radius: 1rem;
+    margin-top: 1.5rem;
 }

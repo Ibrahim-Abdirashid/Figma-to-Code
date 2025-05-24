@@ -11,11 +11,10 @@ Each design has its own folder inside `designs` with the following structur.
 
 Click the links below to go to each design folder and view its specific README with details:
 
-- [Design 1](./designs/design1/README.md)
-- [Design 2](./designs/design2/README.md)
-- [Design 3](./designs/design3/README.md)
-- ...  
-- [Design 50](./designs/design50/README.md)
+- [Design 1](https://github.com/Ibrahim-Abdirashid/Figma-to-Code/tree/master/design1)
+- [Design 2](https://github.com/Ibrahim-Abdirashid/Figma-to-Code/tree/master/design2)
+- [Design 3](https://github.com/Ibrahim-Abdirashid/Figma-to-Code/tree/master/design3) 
+- [Design 4](https://github.com/Ibrahim-Abdirashid/Figma-to-Code/tree/master/design4)
 
 ## Project Purpose 🎯
 

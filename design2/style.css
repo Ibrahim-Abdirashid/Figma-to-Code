@@ -1,55 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-      font-family: "Roboto", sans-serif;
-
-}
 img{
     max-width: 100%;
 }
+body{
+      font-family: "Inter", sans-serif;
 
-.heading h1{
-    margin: 4rem 0 4.6rem 4rem;
-    width: 33.19rem;
-    height: 13.00rem;
-    font-size: 5.50rem;
-    font-weight: 500;
-    line-height: 7rem;
 }
-.grid{
-      margin: 4rem 0 4.6rem 4rem;
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-    gap: 3.5rem;
-    
+.container{
+    max-width: 1200px;
+    margin-inline: auto;
 }
-.grid-section{
+.hero{
+    /* height: 22.1875rem; */
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
+    margin-block: 4rem;
+    text-align: center;
 }
-.grid-section span{
-    margin-bottom: 0.25rem;
-    font-size: 2rem;
-    font-weight: 500;
-    color: rgba(37, 37, 37,0.55);
-}
-.grid-section p{
-    width: 25.00rem;
-    height:8.25rem ;
-    font-size: 1.50rem;
-    font-weight: 400;
-    color: rgba(37, 37, 37,0.8);
-    margin-top: 0.25rem;
+.hero h2{
+    font-size: 4rem;
+    font-weight: bold;
+    width: 38.13rem;
+    height: 9.06rem;
+    color: #252525;
     margin-bottom: 1.5rem;
 }
-.grid-section img{
-    width: 25.00rem;
-    height: 21.56rem;
+.hero p{
+    width: 37.94rem;
+    height:6.75rem ;
+    font-size: 1.63rem;
+    font-weight: 400;
+    color: rgba(37, 37, 37,0.8);
+    margin-bottom: 1.5rem;
+}
+.hero button{
+ background-color: #252525;
+ color: #fff;
+ padding: 1.1rem 3rem;
+ border-radius: 1rem;
+ font-weight: 400;
+ margin-bottom: 4rem;
+}
+
+.grid{
+    max-width: 1300px;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+.gir-section img{
+    width: 19.75rem;
+    height: 18.00rem;
+    border-radius: 1rem;
 }
