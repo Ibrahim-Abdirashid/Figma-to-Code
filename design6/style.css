@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 110vh;
+    font-family: "Roboto", sans-serif;
+    background: url('/design6/image/photo-1588336443962-49d88df004a1.png')top / cover no-repeat;
+    color: #fff;
+
+}
+.firs{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 10.625rem;
+    margin-left: 4.0625rem;
+    margin-bottom: 6.5rem;
+}
+.firs h1{
+    font-size: 5.50rem;
+    width: 42.75rem;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+.firs p{
+    width: 35.50rem;
+    font-size: 1.50rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+.firs button{
+    background-color: #fff;
+    padding: 1.5rem 3rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.grid{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    margin-left: 4.0625rem;
+    margin-right: 5.75rem;
+    gap: 1.5rem;
+
+}
+.grid-section{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 2.75rem 3.3125rem;
+    border-radius: 1rem;
+}
+.grid-section p{
+    width: 19.06rem;
+    font-size: 1.50rem;
+    font-weight: 100;
+}
+span{
+    font-size: 2.00rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
