@@ -18,6 +18,7 @@ Click the links below to go to each design folder and view its specific README w
 - [Design 4](https://github.com/Ibrahim-Abdirashid/Figma-to-Code/tree/master/design4)
 - [Design 5](https://github.com/Ibrahim-Abdirashid/Figma-to-Code/tree/master/design5)
 - [Design 6](https://github.com/Ibrahim-Abdirashid/Figma-to-Code/tree/master/design6)
+- [Design 7](https://github.com/Ibrahim-Abdirashid/Figma-to-Code/tree/master/design7)
 
 ## Project Purpose 🎯
 
